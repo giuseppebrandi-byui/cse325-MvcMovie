@@ -51,6 +51,30 @@ public static class SeedData
             Genre = "Western",
             Price = 3.99M,
             Rating = "R"
+          },
+          new Movie
+          {
+            Title = "Rambo - First Blood",
+            ReleaseDate = DateTime.Parse("1982-12-16"),
+            Genre = "Action",
+            Price = 7.98M,
+            Rating = "R"
+          },
+          new Movie
+          {
+            Title = "Rambo - First Blood Part 2",
+            ReleaseDate = DateTime.Parse("1985-05-22"),
+            Genre = "Action",
+            Price = 7.99M,
+            Rating = "R"
+          },
+          new Movie
+          {
+            Title = "Rambo III",
+            ReleaseDate = DateTime.Parse("1988-2-26"),
+            Genre = "Action",
+            Price = 15.00M,
+            Rating = "R"
           }
       );
       context.SaveChanges();
